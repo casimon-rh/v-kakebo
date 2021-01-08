@@ -1,17 +1,18 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+<template lang="pug">
+  #app
+    calendar
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import HelloWorld from './components/HelloWorld.vue'
+// @ts-ignore
+import { Calendar } from 'vue-sweet-calendar'
+import 'vue-sweet-calendar/dist/SweetCalendar.css'
 
 @Component({
   components: {
-    HelloWorld
+    Calendar
   }
 })
 export default class App extends Vue {}

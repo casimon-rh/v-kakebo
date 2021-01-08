@@ -12,6 +12,7 @@
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
+    "vue-sweet-calendar": "^0.3.1",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
@@ -33,6 +34,7 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
+    "vue-cli-plugin-pug": "~2.0.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
